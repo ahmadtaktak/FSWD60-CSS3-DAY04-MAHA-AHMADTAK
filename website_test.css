@@ -1,0 +1,96 @@
+body{
+	width: 800px;
+	height: 700px;
+	margin: 2% auto;
+	padding-left: 1px;
+	padding-right: 1px;
+    box-shadow: 2px 2px 2px 2px grey;
+	border-right: 5px;
+	border-left: 5px;
+	border-bottom: 5px;
+	border-top: 5px;
+}
+
+
+header h3{
+text-align: center;
+display: block;
+background: pink;
+font-size: 50px;
+
+}
+#first{
+ width: 300px;
+  height: 100px;
+  background: violet;
+  webkit-transition: width 2s; 
+  transition: width 20s;
+  float: left;
+  padding: 3px;
+  margin: 20px;
+  text-align: center;
+ font-size: 50px;
+}
+
+#second{
+	 width: 300px;
+  height: 100px;
+  background: green;
+  webkit-transition: width 2s; 
+  transition: width 15s;
+  clear: left;
+  padding: 3px;
+  margin: 20px;
+  text-align: center;
+  font-size: 50px;
+  color: lightblue;
+}
+#third{
+	 width: 300px;
+  height: 100px;
+  background: yellowgreen;
+  clear: left;
+  webkit-transition: width 2s; 
+  transition: width 10s;
+   padding: 3px;
+  margin: 20px;
+  text-align: center;
+  font-size: 50px;
+
+
+}
+#fourth{
+	 width: 300px;
+  height: 100px;
+  background: red;
+  float: left;
+  webkit-transition: width 2s; 
+  transition: width 5s;
+    padding: 3px;
+  margin: 20px;
+  text-align: center;
+  font-size: 50px;
+  color: white;
+
+}
+#first:hover{
+	width: 100px;
+	height: 50px;
+	background: pink;
+}
+
+#second:hover{
+	width: 100px;
+	height: 50px;
+	background: lightgreen;
+}
+#third:hover{
+	width: 100px;
+	height: 50px;
+	background: yellow;
+}
+#fourth:hover{
+	width: 100px;
+	height: 50px;
+	background: orange;
+}
